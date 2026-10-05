@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111512">
+  <title>НСК 2056 // Пейджер</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage">
+    <section class="pager" aria-label="Пейджер НСК 2056">
+      <div class="brand"><span>НСК</span><b>2056</b></div>
+      <div class="speaker" aria-hidden="true"></div>
+      <div class="screen-shell">
+        <div class="screen">
+          <header class="status">
+            <span id="signal">▮▮▮</span><span id="clock">20:56</span><span>BAT ▰▰▰</span>
+          </header>
+          <div id="display" class="display" tabindex="0"></div>
+          <footer class="hint" id="hint">▲▼ ВЫБОР · ● ОТКРЫТЬ</footer>
+        </div>
+      </div>
+      <div class="controls" aria-label="Управление">
+        <button data-action="up" aria-label="Вверх">▲</button>
+        <button data-action="back" class="small" aria-label="Назад">↩</button>
+        <button data-action="select" class="select" aria-label="Выбрать">●</button>
+        <button data-action="menu" class="small" aria-label="Меню">≡</button>
+        <button data-action="down" aria-label="Вниз">▼</button>
+      </div>
+      <div class="model">ALPHANUMERIC RECEIVER // N-56</div>
+    </section>
+    <p class="desktop-help">Клавиши: ↑ ↓ — выбор · Enter — открыть · Esc — назад</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
